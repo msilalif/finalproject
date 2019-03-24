@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Assets/css/calculator.css">
+    <title>Kalkulator by MSIL</title>
+</head>
+<body background="Assets/img/bgkayu.jpg">
+    <h1>Kalkulator by MSIL</h1>
+    <div>
+        <button class="home"><a href="Web_FP.html">Beranda</a></button>
+    </div>
+        <div id="kalkulator" class="kalkulator">
+                <!--Baris Hasil-->
+                <div id="hasil" class="hasil"><b>0</b></div>
+                <!--Baris Pertama-->
+            <button class="nomor" data-nomor="1">1</button>
+            <button class="nomor" data-nomor="2">2</button>
+            <button class="nomor" data-nomor="3">3</button> 
+            <button class="math" data-math="tambah">+</button>
+                <!--Baris Kedua-->
+            <button class="nomor" data-nomor="4">4</button>
+            <button class="nomor" data-nomor="5">5</button>
+            <button class="nomor" data-nomor="6">6</button>
+            <button class="math" data-math="kurang">-</button>
+                <!--Baris Ketiga-->
+            <button class="nomor" data-nomor="7">7</button>
+            <button class="nomor" data-nomor="8">8</button>
+            <button class="nomor" data-nomor="9">9</button>
+            <button class="math" data-math="kali">*</button>
+                <!--Baris Keempat-->
+            <button class="nomor" data-nomor="0">0</button>
+            <button class="nomor" data-nomor=".">.</button>
+            <button id="samdeng" class="samdeng" data-hasil="">=</button>
+            <button class="math" data-math="bagi">/</button>
+          </div>
+                <!--Tombol Reset-->
+            <button id="clear" class="clear">C</button>
+        <script src="Assets/js/calculator.js"></script>
+</body>
+</html>

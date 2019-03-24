@@ -1,0 +1,157 @@
+html {
+    position: relative;
+}
+
+.jumbotron {
+    position: relative;
+    background: url("Assets/img/bgkayucoklat.jpg") center center;
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotron img {
+    width: 250px;
+    border: 5px solid #333;
+}
+
+.jumbotron .katajumbo {
+    color: aqua;
+    text-align: top;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: chocolate;
+    padding-bottom: 50px;
+}
+
+.containermenu {
+    width: 1000px;
+    margin: auto;
+    background-color: #333;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+hr {
+    width: 250px;
+    border: 5px solid rgb(139, 51, 0);
+}
+
+.menu {
+    padding: auto;
+}
+
+.menu ul {
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: aqua;
+    margin: 3px;
+}
+
+.menu ul li a:hover {
+    color: rgb(0, 73, 207);
+}
+
+.row img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    padding-top: 30px;
+}
+
+footer p {
+    color: aqua;
+}
+
+footer p .copy {
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    background-color: #333;
+}
+
+label {
+    color: black;
+}
+
+li {
+    color: black;
+}
+
+.row img {
+    width: 260px;
+}
+
+.slider-container{
+    border-radius: 20px;
+    width:800px;
+    height: 300px;
+    margin:auto;
+    overflow: hidden;
+    border:2px solid black;
+    position: relative;
+}
+.slider{
+    display: flex;
+    width:100%;
+    height:100%;
+}
+.pic{
+    width:100%;
+    height: 100%;
+}
+#Prev{
+    position: absolute;
+    top:50%;
+    z-index: 10;
+    font-size:30px;
+    color: whitesmoke;
+    left:4%;
+    opacity:0.7;
+    cursor: pointer;
+}
+#Next{
+    position: absolute;
+    top:50%;
+    z-index: 10;
+    font-size:30px;
+    color:whitesmoke;
+    right:4%;
+    opacity:0.7;
+    cursor: pointer;
+}
+
+.slider-container {
+    width: 1000px; 
+    margin: auto;
+    background-color: chocolate;
+    padding-bottom: 50px;
+}
+
+.modal-content {
+    background-color: aqua;
+}

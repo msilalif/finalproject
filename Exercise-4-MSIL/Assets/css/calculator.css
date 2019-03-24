@@ -1,0 +1,56 @@
+body {
+    font: Times New Roman;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: fantasy;
+    font-weight: 300;
+    margin: 0;
+}
+
+.kalkulator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 10em;
+    border: black solid;
+}
+
+.hasil {
+    color: rgb(165, 0, 0);
+    font-family: fantasy;
+    float: left;
+    line-height: 3em;
+    text-align: right;
+    width: 250px;
+    height: 3em;
+}
+  
+button {
+    border: 5px black solid;
+    background: rgba(255, 255, 255, 0.28);
+    color: rgb(14, 0, 63);
+    cursor: pointer;
+    font-family: fantasy;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 2em;
+    height: 2em;
+    transition: all 0.5s;
+}
+button:hover{
+      color: white;
+}
+
+button.clear {
+    margin-top: 8px;
+    width: 3.3em;
+    height: 3.4em;
+}
+
+.home {
+    padding-right: 60px;
+}

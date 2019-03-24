@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>SANS E-Sport</title>
+
+    <!-- Bootstrap dan CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="Assets/css/styleweb.css">
+    <!--Akhir boootstrap dan CSS-->
+    </head>
+
+    <body background="Assets/img/bgkayu.jpg">
+        <!--jumbotron-->
+        <div class="jumbotron text-center">
+            <img src="Assets/img/games.jpg" class="img-circle">
+            <div class="katajumbo">
+                <h1>SANS E-Sport</h1>
+            </div>
+        </div>
+        <!--akhir jumbotron-->
+
+        <!--menu-->
+        <div class="containermenu">
+            <div class="menu">
+                <ul>
+                    <li><a href="Web_FP.html">Beranda</a></li>
+                    <li><a>|</a></li>
+                    <li><a href="pubgm.html">PUBG Mobile</a></li>
+                    <li><a>|</a></li>
+                    <li><a href="ml.html">Mobile Legends</a></li>
+                    <li><a>|</a></li>
+                    <li><a href="pb.html">Point Blank</a></li>
+                    <li><a>|</a></li>
+                    <li><a href="formlomba.html">Pendaftaran Kompetisi</a></li>
+                    <li><a>|</a></li>
+                    <li><a href="calculator.html">Kalkulator</a></li>
+                    <li><a>|</a></li>
+                    <li><a href="#" data-toggle="modal" style="margin-bottom: 20px;"data-target="#Modal">
+                        Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--akhir menu-->
+
+        <!--about-->
+        <section class="About" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h1>PUBG Mobile</h1>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-center">PlayerUnknown’s Battlegrounds Mobile atau disingkat menjadi PUBGM, sebuah game dimana kamu harus bertahan hidup bertempur melawan 100 pemain lain dan menjadi yang terakhir untuk hidup. Ketika para pemain memulai gamenya, mereka akan terjun dari sebuah pesawat dan menggunakan parasut ke berbagai lokasi untuk mereka loot. Sebuah lingkaran putih yang menandakan zona bermain akan muncul dan para pemain harus mengikuti masuk ke dalam lingkaran zona bermain tersebut.</div>
+                    <div class="col-sm-6 text-center">Pemain yang berada di luar lingkaran putih (zona bermain) akan kehabisan darah dan mati, lalu lingkaran putih tersebut akan mengecil secara terus - menerus dan membuat semua pemain yang tersisa pada lingkaran akhir untuk bertempur habis - habisan agar dapat  menjadi pemain terakhir dan memenangkan chicken dinner.</div>
+                </div>
+            </div>
+        </section>
+        <!--akhir about-->
+
+        <!--Link gambar Games-->
+        <section class="linkgambar">
+            <div class="container text-center">
+                <h1>Games</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="pubgm.html" class="thumbnail">
+                            <img src="Assets/img/fotopubg.jpg">
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="ml.html" class="thumbnail">
+                            <img src="Assets/img/fotoml.jpg">
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="pb.html" class="thumbnail">
+                            <img src="Assets/img/fotopb.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Akhir link gambar Games-->
+        
+        <!-- Modal -->
+        <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="ModalLabel">Login</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formspree.io/msilalif1@gmail.com" method="POST">
+                        <div class="form-group row">
+                            <label for="" class="col-form-label col-sm-3">Username</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="" class="col-form-label col-sm-3">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" name="_replyto" class="form-control">
+                            </div>
+                        </div>
+                        <input type="submit" class="btn-success btn"value="Send">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--Akhir Modal-->
+
+        <!--footer-->
+        <footer>
+            <div class="footer">
+              <div class="row">
+                <div class="col-sm-12 text-center">
+                  <p>
+                  <i class="copy">&copy;</i>
+                  Copyright 2019 - [ SANS E-Sport ]
+                  </p>
+                </div>
+              </div>
+            </div>
+        </footer>
+        <!--akhir footer-->
+    </body>
+</html>
